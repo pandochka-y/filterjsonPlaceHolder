@@ -1,0 +1,35 @@
+.result
+  &__list
+    display: flex
+    flex-wrap: wrap
+    margin-right: -15px
+    margin-left: -15px
+    list-style: none
+    padding: 0
+  &__item
+    flex-basis: 33.333%
+  &__empty
+    text-align: center
+    color: $main
+
+
+@media (max-width: 1355px)
+  .result
+    &__list
+      margin-right: -5px
+      margin-left: -5px
+
+@media (max-width: 999px)
+  .result
+    &__item
+      flex-basis: 50%
+
+@media (max-width: 649px)
+  .result
+    &__item
+      flex-basis: 100%
+
+
+
+
+

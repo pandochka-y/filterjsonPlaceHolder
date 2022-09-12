@@ -1,0 +1,26 @@
+.search
+  display: flex
+  height: 30px
+  &__button
+    border: 1px solid $gray
+    box-shadow: none
+    background: $gray-white
+    height: 100%
+    border-top-left-radius: 3px
+    border-bottom-left-radius: 3px
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 35px
+    svg
+      path
+        fill: $gray
+  &__input
+    border: 1px solid $gray
+    border-left: none
+    border-bottom-right-radius: 3px
+    border-top-right-radius: 3px
+    width: 100%
+    padding-left: 12px
+    &::placeholder
+      font-size: 16px
